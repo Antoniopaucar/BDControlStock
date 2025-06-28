@@ -298,8 +298,8 @@
                 <td colspan="2">
                     <style>
     .menu {
-    padding: 0.1;
-    margin: 0.1;
+    padding: 0;
+    margin: 01;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,8 +337,8 @@ td[colspan="2"] {
     padding: 0;
 }
 .menu img {
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 1px;
 }
 </style>
@@ -359,7 +359,7 @@ td[colspan="2"] {
         <a href="frmCategorias.aspx"><img src="img/categoria2.png" alt="Categorías">Categorias</a>
     </li>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmunidadmedida.aspx")) { %> class="active" <% } %> >
-        <a href="frmUnidadMedida.aspx"><img src="img/medida.png" alt="UnidadMedida">Unidad de Medida</a>
+        <a href="frmUnidadMedida.aspx"><img src="img/medida.png" alt="UnidadMedida">Unidad M.</a>
     </li>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmreportes.aspx")) { %> class="active" <% } %> >
         <a href="frmReportes.aspx"><img src="img/reporte.png" alt="Reportes">Reportes</a>
