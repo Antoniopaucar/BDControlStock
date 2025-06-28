@@ -1,0 +1,236 @@
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Demo2025-1\Demo ASP02\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\PROGRAMACION AVANZADA NET\APP_WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\INGENIERIA AVANZADA - PROYECTO\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\ISUR\5 semestre\ING. SOFTWARE\WebApplication_V2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

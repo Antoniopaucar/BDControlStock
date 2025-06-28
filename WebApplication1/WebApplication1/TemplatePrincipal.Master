@@ -1,0 +1,386 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TemplatePrincipal.master.cs" Inherits="WebApplication1.TemplatePrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<style>
+    html,body,form{
+        margin:0;
+        padding:0;
+        height:100%;
+        width:100%;
+    }
+
+    table{
+        width:100%;
+        height:100%;
+        border-collapse:collapse;
+    }
+
+    .full-width-textbox {
+        box-sizing: border-box; /* Asegura que el padding no desborde el 100% */
+        width: 100%;
+    }
+    /* Estilo base */
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-family: 'Segoe UI', sans-serif;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        color: white;
+    }
+
+    /* Botón primario (azul) */
+    .btn-primario {
+        background-color: #007BFF;
+    }
+    .btn-primario:hover {
+        background-color: #0056b3;
+    }
+
+    /* Botón éxito (verde) */
+    .btn-exito {
+        background-color: #28a745;
+    }
+    .btn-exito:hover {
+        background-color: #1e7e34;
+    }
+
+    /* Botón advertencia (naranja) */
+    .btn-advertencia {
+        background-color: #199ECE;
+    }
+    .btn-advertencia:hover {
+        background-color: #136087;
+    }
+
+    /* Botón peligro (rojo) */
+    .btn-peligro {
+        background-color: #dc3545;
+    }
+    .btn-peligro:hover {
+        background-color: #a71d2a;
+    }
+
+    /* Botón informativo (gris oscuro) */
+    .btn-info {
+        background-color: #6c757d;
+    }
+    .btn-info:hover {
+        background-color: #5a6268;
+    }
+
+    .boton-reporte {
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      width: 250px;
+      min-height: 50px;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 10px;
+      text-align: center;
+      white-space: normal;
+      word-wrap: break-word;
+      display: block; /* para que cada botón esté en su propia línea */
+      margin: 10px auto; /* espacio entre botones y centrado */
+      transition: all 0.3s ease;
+    }
+
+    .boton-reporte:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .gridview-style {
+        background-color: white;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .gridview-style th {
+        background-color: #007BFF; /* Azul */
+        color: white;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .gridview-style td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    /*-----------EXTRA PARA LA GRILLA-------------*/
+    .gridview-style tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .gridview-style tr:hover {
+        background-color: #e0e0e0;
+    }
+
+    .gridview-style .btn-sm {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    /*--------------------------------------------*/
+
+    .titulo {
+        font-weight: bold;
+        font-size: 35px;
+        padding: 5px;
+        font-family: Arial, sans-serif;
+    }
+
+    .tablaForm{
+        width: 40%;
+        height:30%;
+        margin: 0 auto;
+    }
+
+
+    /* Encabezado */
+    .Encabezado {
+        background-color: #136087;
+        color: white;
+        font-size:44px;
+        font-weight: bold;
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+
+    /*----menu----*/
+    .menu {
+            display: flex;
+            list-style: none;
+            padding: 20px;
+            margin: 0;
+            background-color: #d9d9d9;
+            justify-content: center;
+        }
+
+        .menu li {
+            margin: 0 15px;
+            text-align: center;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .menu img {
+            width: 70px;
+            height: 70px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+    .auto-style1 {
+        width: 98px;
+        height: 55px;
+    }
+
+</style>
+<script type="text/javascript">
+    function soloDecimales(evt, input) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+
+        // Permitir: backspace, tab, enter, delete, arrows
+        if (
+            charCode === 8 || // backspace
+            charCode === 9 || // tab
+            charCode === 13 || // enter
+            charCode === 46 && !evt.shiftKey && !evt.ctrlKey && !evt.altKey || // delete
+            (charCode >= 37 && charCode <= 40) // arrow keys
+        ) {
+            return true;
+        }
+
+        // Obtener lo que se va a escribir (nuevo valor con el carácter actual)
+        var char = String.fromCharCode(charCode);
+        var nuevoValor = input.value + char;
+
+        // Permitir solo un punto decimal
+        if (char === '.') {
+            if (input.value.includes('.') || input.selectionStart === 0) {
+                evt.preventDefault();
+                return false;
+            }
+            return true;
+        }
+
+        // Permitir solo números
+        if (!/[0-9]/.test(char)) {
+            evt.preventDefault();
+            return false;
+        }
+
+        return true;
+    }
+
+    function validarCamposTabla(tablaId, excluidosCSV='') {
+        var tabla = document.getElementById(tablaId);
+        if (!tabla) {
+            console.warn("Tabla no encontrada: " + tablaId);
+            return false;
+        }
+
+        var controles = tabla.querySelectorAll("input, select, textarea");
+        var camposVacios = [];
+        var excluidos = excluidosCSV.split(',').map(id => id.trim().toLowerCase());
+
+        controles.forEach(function (control) {
+            var idControl = control.id.toLowerCase();
+
+            // Si el ID contiene alguno de los excluidos
+            var excluido = excluidos.some(function (ex) {
+                return idControl.includes(ex);
+            });
+
+            if (
+                excluido ||
+                control.disabled ||
+                control.readOnly ||
+                control.type === "hidden" ||
+                control.type === "button" ||
+                control.type === "submit"
+            ) {
+                return;
+            }
+
+            if (control.value.trim() === "") {
+                var label = document.querySelector("label[for='" + control.id + "']");
+                var nombreCampo = label ? label.innerText : control.name || control.id;
+                camposVacios.push(nombreCampo);
+            }
+        });
+
+        if (camposVacios.length > 0) {
+            alert("Complete los siguientes campos:\n- " + camposVacios.join("\n- "));
+            return false;
+        }
+
+        return true;
+    }
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+        <table>
+            <!-- Título -->
+            <tr>
+                <td colspan="2" >
+                    <div class="Encabezado">
+                        <div><asp:Label ID="Label1" runat="server" Text="SISTEMA DE CONTROL DE STOCK "></asp:Label></div>
+                        <div style="font-size:14px;"><asp:Label ID="lbl_Usuario" runat="server" Text="USUARIO:"></asp:Label>
+                       <a href="frmLogin.aspx"><img src="Img/salir.png" alt="Inicio" class="auto-style1"></a></div>
+                   </div>
+                </td>
+            </tr>
+            <!-- Menú horizontal -->
+            <tr >
+                <td colspan="2">
+                    <style>
+    .menu {
+    padding: 0.1;
+    margin: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 90px;
+}
+.menu li, .menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 0 0.5vw;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+td[colspan="2"] {
+    padding: 0 !important;
+}
+
+.menu li.active, .menu li.active a {
+    background: #fff !important;
+    box-shadow: 0 2px 8px #8882;
+    border-radius: 0 !important;
+}
+.menu li a {
+    flex-direction: column;
+    text-align: center;
+    color: #222;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 0;
+}
+.menu img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1px;
+}
+</style>
+<ul class="menu">
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmusuarios.aspx")) { %> class="active" <% } %> >
+        <a href="frmUsuarios.aspx"><img src="img/usuario.png" alt="Usuarios">Usuarios</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmproductos.aspx")) { %> class="active" <% } %> >
+        <a href="frmProductos.aspx"><img src="img/producto.png" alt="Productos">Productos</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmproveedores.aspx")) { %> class="active" <% } %> >
+        <a href="frmProveedores.aspx"><img src="img/proveedor.png" alt="Proveedores">Proveedores</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmmovimientoinventario.aspx")) { %> class="active" <% } %> >
+        <a href="frmMovimientoInventario.aspx"><img src="img/inventario.png" alt="Inventario">Inventario</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmcategorias.aspx")) { %> class="active" <% } %> >
+        <a href="frmCategorias.aspx"><img src="img/categoria2.png" alt="Categorías">Categorias</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmunidadmedida.aspx")) { %> class="active" <% } %> >
+        <a href="frmUnidadMedida.aspx"><img src="img/medida.png" alt="UnidadMedida">Unidad de Medida</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmreportes.aspx")) { %> class="active" <% } %> >
+        <a href="frmReportes.aspx"><img src="img/reporte.png" alt="Reportes">Reportes</a>
+    </li>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmacercade.aspx")) { %> class="active" <% } %> >
+        <a href="frmAcercaDe.aspx"><img src="img/acerca_de.png" alt="AcercaDe">Acerca De</a>
+    </li>
+</ul>
+                </td>
+            </tr>
+
+            <!-- Contenido principal -->
+            <tr style="height: 75%;">
+                <td style="width:30%; background-color:#ADADAD;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+                <td style="width:70%; background-color:#0084B4;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

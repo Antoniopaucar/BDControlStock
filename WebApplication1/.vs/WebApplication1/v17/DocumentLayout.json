@@ -1,0 +1,651 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\templateprincipal.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\templateprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|d:\\isur\\5 semestre\\ing. software\\webapplication_v2\\webapplication1\\webapplication1\\frmusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmusuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmusuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\menuprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\menuprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproveedores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproveedores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmmovimientoinventario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmmovimientoinventario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmmovimientoinventario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmmovimientoinventario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsreferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsdetallemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsdetallemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsdettipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsdettipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clstipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clstipomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmcategorias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmcategorias.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmcategorias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmcategorias.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmunidadmedida.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmunidadmedida.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmunidadmedida.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmunidadmedida.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsunidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsunidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frminicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frminicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmreportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmreportes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmacercade.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmacercade.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmacercade.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmacercade.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\class\\clsproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\class\\clsproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproveedores.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproveedores.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frminicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frminicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\menuprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\menuprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HtmlPage1.html",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\HtmlPage1.html",
+              "RelativeDocumentMoniker": "WebApplication1\\HtmlPage1.html",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\HtmlPage1.html",
+              "RelativeToolTip": "WebApplication1\\HtmlPage1.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T05:35:41.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmUsuarios.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUsuarios.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmUsuarios.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUsuarios.aspx",
+              "RelativeToolTip": "WebApplication1\\frmUsuarios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T05:30:25.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmProductos.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProductos.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmProductos.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProductos.aspx",
+              "RelativeToolTip": "WebApplication1\\frmProductos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T09:58:21.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProveedores.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmProveedores.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx",
+              "RelativeToolTip": "WebApplication1\\frmProveedores.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T10:00:22.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmUsuarios.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUsuarios.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmUsuarios.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUsuarios.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmUsuarios.aspx.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAiwFQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T09:23:12.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TemplatePrincipal.Master.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\TemplatePrincipal.Master.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\TemplatePrincipal.Master.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\TemplatePrincipal.Master.cs",
+              "RelativeToolTip": "WebApplication1\\TemplatePrincipal.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T06:53:51.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Global.asax.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Global.asax.cs",
+              "RelativeToolTip": "WebApplication1\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T00:06:32.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsUsuario.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsUsuario.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsUsuario.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsUsuario.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsUsuario.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAM8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:18:46.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TemplatePrincipal.Master",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\TemplatePrincipal.Master",
+              "RelativeDocumentMoniker": "WebApplication1\\TemplatePrincipal.Master",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\TemplatePrincipal.Master",
+              "RelativeToolTip": "WebApplication1\\TemplatePrincipal.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T05:22:55.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuPrincipal.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\MenuPrincipal.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\MenuPrincipal.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\MenuPrincipal.aspx",
+              "RelativeToolTip": "WebApplication1\\MenuPrincipal.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T00:35:46.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication1\\Web.config",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Web.config",
+              "RelativeToolTip": "WebApplication1\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-12T07:28:47.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmProveedores.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmProveedores.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmProveedores.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:59:29.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmLogin.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmLogin.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmLogin.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmLogin.aspx",
+              "RelativeToolTip": "WebApplication1\\frmLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T00:09:51.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmLogin.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmLogin.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmLogin.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmLogin.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmLogin.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T23:57:45.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmMovimientoInventario.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmMovimientoInventario.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmMovimientoInventario.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmMovimientoInventario.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmMovimientoInventario.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T06:53:30.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmMovimientoInventario.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmMovimientoInventario.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmMovimientoInventario.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmMovimientoInventario.aspx",
+              "RelativeToolTip": "WebApplication1\\frmMovimientoInventario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T15:07:12.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmProductos.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProductos.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmProductos.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProductos.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmProductos.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:36:06.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "clsProducto.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsProducto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsProducto.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsProducto.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsProducto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:35:46.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "clsMovimiento.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsMovimiento.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsMovimiento.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsMovimiento.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsMovimiento.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T05:49:11.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "clsReferencia.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsReferencia.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsReferencia.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsReferencia.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsReferencia.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:03:13.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "clsDetalleMovimiento.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetalleMovimiento.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsDetalleMovimiento.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetalleMovimiento.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsDetalleMovimiento.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T06:20:00.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "clsDetTipoMovimiento.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetTipoMovimiento.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsDetTipoMovimiento.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetTipoMovimiento.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsDetTipoMovimiento.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:21:07.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "clsTipoMovimiento.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsTipoMovimiento.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsTipoMovimiento.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsTipoMovimiento.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsTipoMovimiento.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:20:44.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "clsRol.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsRol.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsRol.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsRol.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsRol.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:15:18.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmCategorias.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmCategorias.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmCategorias.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmCategorias.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmCategorias.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:49:55.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmCategorias.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmCategorias.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmCategorias.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmCategorias.aspx",
+              "RelativeToolTip": "WebApplication1\\frmCategorias.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T06:24:30.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmUnidadMedida.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUnidadMedida.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmUnidadMedida.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUnidadMedida.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmUnidadMedida.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:53:08.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmUnidadMedida.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUnidadMedida.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmUnidadMedida.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUnidadMedida.aspx",
+              "RelativeToolTip": "WebApplication1\\frmUnidadMedida.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T14:48:48.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "clsUnidadMedida.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsUnidadMedida.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsUnidadMedida.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsUnidadMedida.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsUnidadMedida.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:14:44.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmInicio.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmInicio.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmInicio.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmInicio.aspx",
+              "RelativeToolTip": "WebApplication1\\frmInicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T11:33:13.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmReportes.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
+              "RelativeToolTip": "WebApplication1\\frmReportes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T15:09:27.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmAcercaDe.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmAcercaDe.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmAcercaDe.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmAcercaDe.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmAcercaDe.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:06:11.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmAcercaDe.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmAcercaDe.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmAcercaDe.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmAcercaDe.aspx",
+              "RelativeToolTip": "WebApplication1\\frmAcercaDe.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T12:03:02.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "clsCategoria.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsCategoria.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsCategoria.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsCategoria.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsCategoria.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:40:18.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "clsProveedor.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsProveedor.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Class\\clsProveedor.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsProveedor.cs",
+              "RelativeToolTip": "WebApplication1\\Class\\clsProveedor.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:49:30.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmProveedores.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmProveedores.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication1\\frmProveedores.aspx.designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:24:08.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmInicio.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmInicio.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmInicio.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmInicio.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmInicio.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:07:45.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MenuPrincipal.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\MenuPrincipal.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\MenuPrincipal.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\MenuPrincipal.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\MenuPrincipal.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T23:56:51.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
