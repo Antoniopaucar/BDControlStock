@@ -12,7 +12,7 @@
     <br />
     <asp:Button ID="btn_Rep_Perdidas" runat="server" Text="REPORTE DE PERDIDAS" class="boton-reporte" OnClick="btn_Rep_Perdidas_Click"/>
     <br />
-    <asp:Button ID="btn_Rep_Inv_Actual" runat="server" Text="REPORTE DE INVENTARIO ACTUAL" class="boton-reporte" />
+    <asp:Button ID="btn_Rep_Inv_Actual" runat="server" Text="REPORTE DE INVENTARIO ACTUAL" class="boton-reporte" OnClick="btn_Rep_Inv_Actual_Click" />
 </div>
 
 
@@ -22,6 +22,12 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <rsweb:ReportViewer ID="ReportViewerPerdidas" runat="server" Width="100%" Height="600px" Visible="false" ProcessingMode="Local" KeepSessionAlive="false" SizeToReportContent="true">
         <LocalReport ReportPath="~/ReportePerdidas.rdlc">
+        </LocalReport>
+    </rsweb:ReportViewer>
+    
+    <rsweb:ReportViewer ID="ReportViewerInventario" runat="server" Width="100%" Height="600px" 
+        Visible="false" ProcessingMode="Local" KeepSessionAlive="false" SizeToReportContent="true">
+        <LocalReport ReportPath="~/ReporteInventario.rdlc">
         </LocalReport>
     </rsweb:ReportViewer>
 

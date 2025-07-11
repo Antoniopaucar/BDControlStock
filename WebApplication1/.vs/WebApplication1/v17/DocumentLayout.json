@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|d:\\isur\\5 semestre\\ing. software\\webapplication_v2\\webapplication1\\webapplication1\\reporteinventario.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\reporteinventario.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|d:\\isur\\5 semestre\\ing. software\\webapplication_v2\\webapplication1\\webapplication1\\reporteperdidas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
       "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\reporteperdidas.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\reportproductos.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\reportproductos.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmreportes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmreportes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmreportes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmproveedores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmreportes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\frmreportes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F32911E5-AC36-4E3D-8EDB-9B124D4EC2F6}|WebApplication1\\WebApplication1.csproj|D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\webapplication1\\frmproveedores.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,7 +186,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "frmReportes.aspx",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
+              "RelativeToolTip": "WebApplication1\\frmReportes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T15:09:27.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmReportes.aspx.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\frmReportes.aspx.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T03:53:04.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmReportes.aspx.designer.cs",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx.designer.cs",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication1\\frmReportes.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T03:54:08.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReportePerdidas.rdlc [Dise\u00F1o]",
               "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\ReportePerdidas.rdlc",
               "RelativeDocumentMoniker": "WebApplication1\\ReportePerdidas.rdlc",
@@ -198,42 +237,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportProductos.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\ReportProductos.rdlc",
-              "RelativeDocumentMoniker": "WebApplication1\\ReportProductos.rdlc",
-              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\ReportProductos.rdlc [Dise\u00F1o]",
-              "RelativeToolTip": "WebApplication1\\ReportProductos.rdlc [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "ReporteInventario.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\ReporteInventario.rdlc",
+              "RelativeDocumentMoniker": "WebApplication1\\ReporteInventario.rdlc",
+              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\ReporteInventario.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "WebApplication1\\ReporteInventario.rdlc [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-07-11T08:23:26.267Z"
+              "WhenOpened": "2025-07-11T20:17:45.789Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmReportes.aspx",
-              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx",
-              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx",
-              "RelativeToolTip": "WebApplication1\\frmReportes.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T15:09:27.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmReportes.aspx.cs",
-              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx.cs",
-              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\frmReportes.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T03:53:04.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Web.config",
               "RelativeDocumentMoniker": "WebApplication1\\Web.config",
@@ -246,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmProveedores.aspx",
               "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProveedores.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\frmProveedores.aspx",
@@ -254,23 +270,8 @@
               "RelativeToolTip": "WebApplication1\\frmProveedores.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T10:00:22.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmReportes.aspx.designer.cs",
-              "DocumentMoniker": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.designer.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\frmReportes.aspx.designer.cs",
-              "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmReportes.aspx.designer.cs",
-              "RelativeToolTip": "WebApplication1\\frmReportes.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T03:54:08.338Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "WhenOpened": "2025-06-12T10:00:22.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -282,7 +283,8 @@
               "RelativeToolTip": "WebApplication1\\TemplatePrincipal.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T05:22:55.828Z"
+              "WhenOpened": "2025-06-12T05:22:55.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -294,7 +296,8 @@
               "RelativeToolTip": "WebApplication1\\frmProveedores.aspx.cs",
               "ViewState": "AQIAAOgAAAAAAAAAAAAYwOAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:59:29.471Z"
+              "WhenOpened": "2025-06-12T10:59:29.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -306,7 +309,8 @@
               "RelativeToolTip": "WebApplication1\\frmProveedores.aspx.designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:24:08.126Z"
+              "WhenOpened": "2025-06-17T08:24:08.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -318,7 +322,8 @@
               "RelativeToolTip": "WebApplication1\\Class\\clsUsuario.cs",
               "ViewState": "AQIAAK0AAAAAAAAAAAAUwM8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:18:46.922Z"
+              "WhenOpened": "2025-05-27T00:18:46.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -330,7 +335,8 @@
               "RelativeToolTip": "WebApplication1\\TemplatePrincipal.Master.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T06:53:51.572Z"
+              "WhenOpened": "2025-06-14T06:53:51.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -342,7 +348,8 @@
               "RelativeToolTip": "WebApplication1\\Global.asax.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:06:32.684Z"
+              "WhenOpened": "2025-05-30T00:06:32.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -354,7 +361,8 @@
               "RelativeToolTip": "WebApplication1\\Class\\clsProveedor.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAiwFIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T10:49:30.544Z"
+              "WhenOpened": "2025-06-12T10:49:30.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -366,7 +374,8 @@
               "RelativeToolTip": "WebApplication1\\frmUsuarios.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T05:30:25.624Z"
+              "WhenOpened": "2025-06-12T05:30:25.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -378,7 +387,8 @@
               "RelativeToolTip": "WebApplication1\\frmUsuarios.aspx.cs",
               "ViewState": "AQIAAI8AAAAAAAAAAAAiwFQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T09:23:12.39Z"
+              "WhenOpened": "2025-06-12T09:23:12.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -390,7 +400,8 @@
               "RelativeToolTip": "WebApplication1\\frmProductos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T09:58:21.236Z"
+              "WhenOpened": "2025-06-12T09:58:21.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -402,7 +413,8 @@
               "RelativeToolTip": "WebApplication1\\HtmlPage1.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-12T05:35:41.819Z"
+              "WhenOpened": "2025-06-12T05:35:41.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -414,7 +426,8 @@
               "RelativeToolTip": "WebApplication1\\MenuPrincipal.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-27T00:35:46.845Z"
+              "WhenOpened": "2025-05-27T00:35:46.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -426,7 +439,8 @@
               "RelativeToolTip": "WebApplication1\\frmLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-27T00:09:51.708Z"
+              "WhenOpened": "2025-05-27T00:09:51.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -438,7 +452,8 @@
               "RelativeToolTip": "WebApplication1\\frmLogin.aspx.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:57:45.864Z"
+              "WhenOpened": "2025-05-29T23:57:45.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -449,7 +464,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmMovimientoInventario.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmMovimientoInventario.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:53:30.718Z"
+              "WhenOpened": "2025-06-21T06:53:30.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -461,7 +477,8 @@
               "RelativeToolTip": "WebApplication1\\frmMovimientoInventario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T15:07:12.213Z"
+              "WhenOpened": "2025-06-14T15:07:12.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -472,7 +489,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmProductos.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmProductos.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:36:06.917Z"
+              "WhenOpened": "2025-06-12T19:36:06.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -483,7 +501,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsProducto.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsProducto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:35:46.415Z"
+              "WhenOpened": "2025-06-12T11:35:46.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -494,7 +513,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsMovimiento.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsMovimiento.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T05:49:11.783Z"
+              "WhenOpened": "2025-06-21T05:49:11.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -505,7 +525,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsReferencia.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsReferencia.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:03:13.957Z"
+              "WhenOpened": "2025-06-19T07:03:13.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -516,7 +537,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetalleMovimiento.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsDetalleMovimiento.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:20:00.089Z"
+              "WhenOpened": "2025-06-21T06:20:00.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -527,7 +549,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsDetTipoMovimiento.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsDetTipoMovimiento.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:21:07.919Z"
+              "WhenOpened": "2025-06-21T07:21:07.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -538,7 +561,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsTipoMovimiento.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsTipoMovimiento.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:20:44.601Z"
+              "WhenOpened": "2025-06-21T07:20:44.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -549,7 +573,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsRol.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsRol.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T08:15:18.484Z"
+              "WhenOpened": "2025-06-14T08:15:18.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -560,7 +585,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmCategorias.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmCategorias.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:49:55.797Z"
+              "WhenOpened": "2025-06-12T07:49:55.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -572,7 +598,8 @@
               "RelativeToolTip": "WebApplication1\\frmCategorias.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T06:24:30.695Z"
+              "WhenOpened": "2025-06-12T06:24:30.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -583,7 +610,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmUnidadMedida.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmUnidadMedida.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:53:08.172Z"
+              "WhenOpened": "2025-06-14T14:53:08.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -595,7 +623,8 @@
               "RelativeToolTip": "WebApplication1\\frmUnidadMedida.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T14:48:48.996Z"
+              "WhenOpened": "2025-06-14T14:48:48.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -606,7 +635,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsUnidadMedida.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsUnidadMedida.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T13:14:44.045Z"
+              "WhenOpened": "2025-06-14T13:14:44.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -618,7 +648,8 @@
               "RelativeToolTip": "WebApplication1\\frmInicio.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T11:33:13.653Z"
+              "WhenOpened": "2025-06-14T11:33:13.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -629,7 +660,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmAcercaDe.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmAcercaDe.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T12:06:11.837Z"
+              "WhenOpened": "2025-06-14T12:06:11.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -641,7 +673,8 @@
               "RelativeToolTip": "WebApplication1\\frmAcercaDe.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T12:03:02.097Z"
+              "WhenOpened": "2025-06-14T12:03:02.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -652,7 +685,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\Class\\clsCategoria.cs",
               "RelativeToolTip": "WebApplication1\\Class\\clsCategoria.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:40:18.128Z"
+              "WhenOpened": "2025-06-12T07:40:18.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -663,7 +697,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\frmInicio.aspx.cs",
               "RelativeToolTip": "WebApplication1\\frmInicio.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T12:07:45.06Z"
+              "WhenOpened": "2025-06-14T12:07:45.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -674,7 +709,8 @@
               "ToolTip": "D:\\ISUR\\5 semestre\\ING. SOFTWARE\\WebApplication_V2\\WebApplication1\\WebApplication1\\MenuPrincipal.aspx.cs",
               "RelativeToolTip": "WebApplication1\\MenuPrincipal.aspx.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:56:51.145Z"
+              "WhenOpened": "2025-05-29T23:56:51.145Z",
+              "EditorCaption": ""
             }
           ]
         }

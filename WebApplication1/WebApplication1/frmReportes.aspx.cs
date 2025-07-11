@@ -27,6 +27,68 @@ namespace WebApplication1
             }
         }
 
+        protected void btn_Rep_Inv_Actual_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Ocultar otros reportes y mostrar solo este
+                ReportViewerPerdidas.Visible = false;
+                ReportViewerInventario.Visible = true;
+                
+                // Configurar la ruta del reporte
+                string reportPath = Server.MapPath("~/ReporteInventario.rdlc");
+                if (!System.IO.File.Exists(reportPath))
+                {
+                    throw new FileNotFoundException($"No se encontró el archivo de reporte en: {reportPath}");
+                }
+                
+                // Obtener los datos usando el procedimiento almacenado
+                DataTable dt = new DataTable();
+                using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DBAlmacenConnection"].ConnectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("MostrarProductosEnStock", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    
+                    conn.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        dt.Load(reader);
+                    }
+                }
+                
+                // Verificar si hay datos
+                if (dt.Rows.Count == 0)
+                {
+                    dt.Columns.Add("Mensaje");
+                    dt.Rows.Add("No se encontraron productos en el inventario");
+                }
+                
+                // Configurar el ReportViewer
+                ReportViewerInventario.ProcessingMode = ProcessingMode.Local;
+                ReportViewerInventario.LocalReport.ReportPath = reportPath;
+                
+                // Crear y configurar el origen de datos
+                ReportDataSource rds = new ReportDataSource("DataSetInventario", dt);
+                
+                // Limpiar fuentes de datos existentes y agregar la nueva
+                ReportViewerInventario.LocalReport.DataSources.Clear();
+                ReportViewerInventario.LocalReport.DataSources.Add(rds);
+                
+                // Actualizar el reporte
+                ReportViewerInventario.LocalReport.Refresh();
+            }
+            catch (Exception ex)
+            {
+                string errorMsg = $"Error al cargar el reporte de inventario: {ex.Message}";
+                if (ex.InnerException != null)
+                {
+                    errorMsg += $"\nDetalles: {ex.InnerException.Message}";
+                }
+                ScriptManager.RegisterStartupScript(this, GetType(), "Error", 
+                    $"alert('{errorMsg.Replace("'", "\\'")}');", true);
+            }
+        }
+
         protected void btn_Rep_Perdidas_Click(object sender, EventArgs e)
         {
             try
