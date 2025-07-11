@@ -15,6 +15,15 @@ namespace WebApplication1
     {
 
         /// <summary>
+        /// Control ScriptManager1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
+
+        /// <summary>
         /// Control btn_Rep_Mov_Fechas.
         /// </summary>
         /// <remarks>
@@ -51,12 +60,12 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Button btn_Rep_Inv_Actual;
 
         /// <summary>
-        /// Control Panel1.
+        /// Control ReportViewerPerdidas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::Microsoft.Reporting.WebForms.ReportViewer ReportViewerPerdidas;
     }
 }
