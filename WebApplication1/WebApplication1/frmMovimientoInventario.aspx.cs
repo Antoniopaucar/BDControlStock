@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -132,7 +133,8 @@ namespace WebApplication1
         {
             if (Detalles.Count == 0)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alerta", "alert('Debe agregar al menos un producto en la grilla antes de guardar.');", true);
+                ScriptManager.RegisterStartupScript(this, GetType(), "alerta",
+                    "alert('Debe agregar al menos un producto en la grilla antes de guardar.');", true);
                 return;
             }
 
@@ -142,19 +144,21 @@ namespace WebApplication1
                 IdTipoMovimiento = new clsReferencia { Id = int.Parse(Ddl_Movimiento.SelectedValue) },
                 IdDetalleTipoMovimiento = new clsReferencia { Id = int.Parse(Ddl_TipoMovimiento.SelectedValue) },
                 Observaciones = this.txt_Observaciones.Text,
-                IdUsuario = new clsReferencia { Id = int.Parse(Ddl_Usuario.SelectedValue) },
+                IdUsuario = new clsReferencia { Id = int.Parse(Session["IdUser"].ToString()) },
                 Detalles = Detalles
             };
 
             mov.Agregar(connectionString);
             LimpiarFormulario();
+            VerificarStockMinimoYAlertar();
         }
 
         protected void btn_Modificar_Click(object sender, EventArgs e)
         {
             if (Detalles.Count == 0)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alerta", "alert('Debe haber al menos un producto en la grilla para modificar el movimiento.');", true);
+                ScriptManager.RegisterStartupScript(this, GetType(), "alerta",
+                    "alert('Debe haber al menos un producto en la grilla para modificar el movimiento.');", true);
                 return;
             }
 
@@ -165,8 +169,7 @@ namespace WebApplication1
                 IdTipoMovimiento = new clsReferencia { Id = int.Parse(Ddl_Movimiento.SelectedValue) },
                 IdDetalleTipoMovimiento = new clsReferencia { Id = int.Parse(Ddl_TipoMovimiento.SelectedValue) },
                 Observaciones = this.txt_Observaciones.Text,
-                //IdUsuario = new clsReferencia { Id = int.Parse(Ddl_Usuario.SelectedValue) },
-                IdUsuario = new clsReferencia {Id = int.Parse(Session["IdUser"].ToString()) },
+                IdUsuario = new clsReferencia { Id = int.Parse(Session["IdUser"].ToString()) },
                 Detalles = Detalles
             };
 
@@ -210,12 +213,10 @@ namespace WebApplication1
                     clsMovimiento mov = new clsMovimiento();
                     if (mov.Buscar(connectionString, idBuscado))
                     {
-                        // Rellenar campos
                         txt_Id.Text = mov.IdMovimiento.ToString();
                         txt_Fecha.Text = mov.Fecha.ToString("yyyy-MM-dd");
                         Ddl_Movimiento.SelectedValue = mov.IdTipoMovimiento.Id.ToString();
 
-                        // Cargar subtipo
                         clsDetTipoMovimiento detTipoMov = new clsDetTipoMovimiento();
                         var lista2 = detTipoMov.ListarDetTiposMov(connectionString, mov.IdTipoMovimiento.Id);
                         Ddl_TipoMovimiento.DataSource = lista2;
@@ -224,66 +225,83 @@ namespace WebApplication1
                         Ddl_TipoMovimiento.DataBind();
                         Ddl_TipoMovimiento.SelectedValue = mov.IdDetalleTipoMovimiento.Id.ToString();
 
-                        // Observaciones
                         txt_Observaciones.Text = mov.Observaciones;
                         Ddl_Usuario.SelectedValue = mov.IdUsuario.Id.ToString();
 
-                        // Cargar detalles en ViewState y grilla
                         Detalles = mov.Detalles;
                         ActualizarGrilla();
                         txt_Buscar.Text = "";
 
-                        // Ajustar botones
                         btn_Agregar.Enabled = false;
                         btn_Modificar.Enabled = true;
                         btn_Eliminar.Enabled = true;
                     }
                     else
                     {
-                        // No se encontró
                         txt_Buscar.Text = "";
-                        ScriptManager.RegisterStartupScript(this, GetType(), "msg", "alert('No se encontró el movimiento con ese Número.');", true);
+                        ScriptManager.RegisterStartupScript(this, GetType(), "msg",
+                            "alert('No se encontró el movimiento con ese Número.');", true);
                     }
                 }
                 else
                 {
                     txt_Buscar.Text = "";
-                    ScriptManager.RegisterStartupScript(this, GetType(), "msg", "alert('Ingrese un número válido.');", true);
+                    ScriptManager.RegisterStartupScript(this, GetType(), "msg",
+                        "alert('Ingrese un número válido.');", true);
                 }
             }
         }
 
         protected void btnAgregarFila_Click(object sender, EventArgs e)
         {
-            if (ddlProducto.SelectedIndex > 0 && !string.IsNullOrWhiteSpace(txtCantidad.Text) && !string.IsNullOrWhiteSpace(txtCosto.Text))
+            // Validar campos obligatorios
+            if (ddlProducto.SelectedIndex == 0 ||
+                Ddl_Movimiento.SelectedIndex == 0 ||
+                string.IsNullOrWhiteSpace(txtCantidad.Text) ||
+                string.IsNullOrWhiteSpace(txtCosto.Text))
             {
-                int idProducto = int.Parse(ddlProducto.SelectedValue);
-                clsProducto producto = new clsProducto();
-                producto.Buscar(connectionString, idProducto);
-
-                clsDetalleMovimiento nuevo = new clsDetalleMovimiento
-                {
-                    IdProducto = new clsReferencia
-                    {
-                        Id = idProducto,
-                        Nombre = producto.Nombre
-                    },
-                    Cantidad = int.Parse(txtCantidad.Text),
-                    Costo = decimal.Parse(txtCosto.Text)
-                };
-
-                Detalles.Add(nuevo);
-                ActualizarGrilla();
-
-                ddlProducto.SelectedIndex = 0;
-                txtCantidad.Text = "";
-                txtCosto.Text = "";
-            }
-            else
-            {
-                ScriptManager.RegisterStartupScript(this, GetType(), "alerta", "alert('Ningun campo debe estar vacio.');", true);
+                ScriptManager.RegisterStartupScript(this, GetType(), "alerta",
+                    "alert('Todos los campos son obligatorios y debe seleccionar tipo de movimiento.');", true);
                 return;
             }
+
+            int idProducto = int.Parse(ddlProducto.SelectedValue);
+            int idTipoMov = int.Parse(Ddl_Movimiento.SelectedValue); // 1 = Entrada, 2 = Salida
+            string nomProducto = ddlProducto.SelectedItem.Text;
+            int cantidadReq = int.Parse(txtCantidad.Text);
+            decimal costo = decimal.Parse(txtCosto.Text);
+
+            // Validar stock SOLO cuando es Salida (suponiendo que idTipoMov 2 es Salida)
+            if (!HayStock(idProducto, cantidadReq, idTipoMov))
+            {
+                ScriptManager.RegisterStartupScript(this, GetType(), "sinStock",
+                    $"alert('Stock insuficiente para \"{nomProducto}\".');", true);
+                return;
+            }
+
+            // Recuperar datos del producto
+            clsProducto producto = new clsProducto();
+            producto.Buscar(connectionString, idProducto);
+
+            clsDetalleMovimiento nuevo = new clsDetalleMovimiento
+            {
+                IdProducto = new clsReferencia
+                {
+                    Id = idProducto,
+                    Nombre = producto.Nombre
+                },
+                Cantidad = cantidadReq,
+                Costo = costo
+            };
+
+            // Agregar al listado y actualizar grilla
+            Detalles.Add(nuevo);
+            ActualizarGrilla();
+
+            // Limpieza de controles
+            ddlProducto.SelectedIndex = 0;
+            txtCantidad.Text = "";
+            txtCosto.Text = "";
         }
 
         protected void btn_Eliminar_Click(object sender, EventArgs e)
@@ -292,6 +310,56 @@ namespace WebApplication1
             clsMovimiento mov = new clsMovimiento { IdMovimiento = id };
             mov.Eliminar(connectionString);
             LimpiarFormulario();
+        }
+
+        // Actualizar la firma de HayStock para incluir idTipoMov y usarlo en el comando
+        private bool HayStock(int idProd, decimal cantidad, int idTipoMov)
+        {
+            using (var cn = new SqlConnection(connectionString))
+            using (var cmd = new SqlCommand("usp_VerificarStock", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@IdProducto", SqlDbType.Int).Value = idProd;
+                cmd.Parameters.Add("@CantidadSolicita", SqlDbType.Decimal).Value = cantidad;
+                cmd.Parameters.Add("@IdTipoMovimiento", SqlDbType.Int).Value = idTipoMov;
+
+                var pOut = cmd.Parameters.Add("@TieneStock", SqlDbType.Bit);
+                pOut.Direction = ParameterDirection.Output;
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+
+                return (bool)pOut.Value;
+            }
+        }
+
+        private void VerificarStockMinimoYAlertar()
+        {
+            DataTable dt = new DataTable();
+            using (var da = new SqlDataAdapter("SELECT Nombre, StockActual, StockMinimo FROM vw_ProductosBajoMinimo", ConfigurationManager.ConnectionStrings["DBAlmacenConnection"].ConnectionString))
+            {
+                da.Fill(dt);
+            }
+
+            if (dt.Rows.Count == 0) return;        // todo ok
+
+            // Armar un mensaje compacto:
+            // Ej.:  "Arroz (0 ≤ 5), Azúcar (2 ≤ 3)"
+            var mensajes = new List<string>();
+            foreach (DataRow row in dt.Rows)
+            {
+                string nom = row["Nombre"].ToString();
+                string act = row["StockActual"].ToString();
+                string min = row["StockMinimo"].ToString();
+                mensajes.Add($"{nom} ({act} ≤ {min})");
+            }
+
+            string alerta = "¡Alerta! Stock por debajo del mínimo en: " +
+                            string.Join(", ", mensajes);
+
+            ScriptManager.RegisterStartupScript(
+                this, GetType(), "stockMin",
+                $"alert('{alerta.Replace("'", "\\'")}');", true);
         }
     }
 }
