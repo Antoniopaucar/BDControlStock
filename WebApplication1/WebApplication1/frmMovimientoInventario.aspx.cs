@@ -44,6 +44,18 @@ namespace WebApplication1
                 Ddl_Movimiento.DataBind();
                 Ddl_Movimiento.Items.Insert(0, new ListItem("-- Seleccione un Tipo de Movimiento --", ""));
 
+                // Si es operario, solo mostrar 'Salida' (valor '2')
+                if (Session["IdRol"] != null && (int)Session["IdRol"] == 3)
+                {
+                    for (int i = Ddl_Movimiento.Items.Count - 1; i >= 0; i--)
+                    {
+                        if (Ddl_Movimiento.Items[i].Value != "2" && Ddl_Movimiento.Items[i].Value != "")
+                        {
+                            Ddl_Movimiento.Items.RemoveAt(i);
+                        }
+                    }
+                }
+
                 // Inicializar subtipos vacíos
                 Ddl_TipoMovimiento.Items.Clear();
                 Ddl_TipoMovimiento.Items.Insert(0, new ListItem("-- Seleccione un Sub Tipo de Movimiento --", ""));

@@ -106,6 +106,7 @@
 <asp:GridView ID="gvProveedores" runat="server" AutoGenerateColumns="False" AllowPaging="True" PageSize="7"
     OnPageIndexChanging="gvProveedores_PageIndexChanging"
     OnRowCommand="gvProveedores_RowCommand"
+    OnRowDataBound="gvProveedores_RowDataBound"
     CssClass="gridview-style">
     <Columns>
         <asp:BoundField DataField="IdProveedor" HeaderText="ID" />

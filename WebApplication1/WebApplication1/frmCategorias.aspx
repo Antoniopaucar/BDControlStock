@@ -77,6 +77,7 @@
 <asp:GridView ID="gvCategorias" runat="server" AutoGenerateColumns="False" AllowPaging="True" PageSize="7"
     OnPageIndexChanging="gvCategorias_PageIndexChanging"
     OnRowCommand="gvCategorias_RowCommand"
+    OnRowDataBound="gvCategorias_RowDataBound"
     CssClass="gridview-style">
     <Columns>
         <asp:BoundField DataField="IdCategoria" HeaderText="ID" />

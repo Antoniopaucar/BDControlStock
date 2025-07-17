@@ -64,6 +64,7 @@
 <asp:GridView ID="gvUnidades" runat="server" AutoGenerateColumns="False" AllowPaging="True" PageSize="7"
     OnPageIndexChanging="gvUnidades_PageIndexChanging"
     OnRowCommand="gvUnidades_RowCommand"
+    OnRowDataBound="gvUnidadMedida_RowDataBound"
     CssClass="gridview-style">
     <Columns>
         <asp:BoundField DataField="IdUnidad" HeaderText="ID" />

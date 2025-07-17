@@ -52,6 +52,14 @@ namespace WebApplication1
                 this.Ddl_Proveedor.DataValueField = "IdProveedor";
                 this.Ddl_Proveedor.DataBind();
                 Ddl_Proveedor.Items.Insert(0, new ListItem("-- Seleccione un Proveedor --", ""));
+
+                if (Session["IdRol"] != null && (int)Session["IdRol"] == 2)
+                {
+                    btn_Agregar.Enabled = false;
+                    btn_Eliminar.Enabled = false;
+                    btn_Modificar.Enabled = false;
+                    btn_Limpiar.Enabled = false;
+                }
             }
         }
 
@@ -338,6 +346,23 @@ namespace WebApplication1
             gvProductos.PageIndex = e.NewPageIndex;
             string filtro = txtBuscar.Text.Trim();
             CargarGrid(filtro);
+        }
+
+        protected void gvProductos_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                if (Session["IdRol"] != null && (int)Session["IdRol"] == 2)
+                {
+                    Button btnEliminar = (Button)e.Row.FindControl("btnEliminar");
+                    if (btnEliminar != null)
+                        btnEliminar.Enabled = false;
+
+                    Button btnConsultar = (Button)e.Row.FindControl("btnConsultar");
+                    if (btnConsultar != null)
+                        btnConsultar.Enabled = false;
+                }
+            }
         }
 
         private void Limpiar()

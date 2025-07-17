@@ -24,6 +24,13 @@ namespace WebApplication1
                 CargarGrid();
                 this.btn_Modificar.Enabled = false;
                 this.btn_Eliminar.Enabled = false;
+                if (Session["IdRol"] != null && (int)Session["IdRol"] == 2)
+                {
+                    btn_Agregar.Enabled = false;
+                    btn_Eliminar.Enabled = false;
+                    btn_Modificar.Enabled = false;
+                    btn_Limpiar.Enabled = false;
+                }
             }
         }
 
@@ -249,6 +256,23 @@ namespace WebApplication1
             // Si quieres mantener el filtro al cambiar de página
             string filtro = txtBuscar.Text.Trim();
             CargarGrid(filtro);
+        }
+
+        protected void gvUnidadMedida_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                if (Session["IdRol"] != null && (int)Session["IdRol"] == 2)
+                {
+                    Button btnEliminar = (Button)e.Row.FindControl("btnEliminar");
+                    if (btnEliminar != null)
+                        btnEliminar.Enabled = false;
+
+                    Button btnConsultar = (Button)e.Row.FindControl("btnConsultar");
+                    if (btnConsultar != null)
+                        btnConsultar.Enabled = false;
+                }
+            }
         }
 
 
