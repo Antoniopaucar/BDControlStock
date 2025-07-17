@@ -16,6 +16,11 @@ namespace WebApplication1
         string connectionString = ConfigurationManager.ConnectionStrings["DBAlmacenConnection"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["IdRol"] == null || ((int)Session["IdRol"] != 1 && (int)Session["IdRol"] != 2 && (int)Session["IdRol"] != 3))
+            {
+                Response.Redirect("NoAutorizado.aspx");
+                return;
+            }
             if (!IsPostBack)
             {
                 this.btn_Modificar.Enabled = false;

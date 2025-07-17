@@ -342,18 +342,23 @@ td[colspan="2"] {
     margin-bottom: 1px;
 }
 </style>
+<%
+    int idRol = Session["IdRol"] != null ? (int)Session["IdRol"] : 0;
+%>
 <ul class="menu">
+    <%-- Usuarios: Solo Administrador --%>
+    <% if (idRol == 1) { %>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmusuarios.aspx")) { %> class="active" <% } %> >
         <a href="frmUsuarios.aspx"><img src="img/usuario.png" alt="Usuarios">Usuarios</a>
     </li>
+    <% } %>
+    <%-- Productos, Proveedores, Categorias, Unidad M.: Admin y Supervisor --%>
+    <% if (idRol == 1 || idRol == 2) { %>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmproductos.aspx")) { %> class="active" <% } %> >
         <a href="frmProductos.aspx"><img src="img/producto.png" alt="Productos">Productos</a>
     </li>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmproveedores.aspx")) { %> class="active" <% } %> >
         <a href="frmProveedores.aspx"><img src="img/proveedor.png" alt="Proveedores">Proveedores</a>
-    </li>
-    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmmovimientoinventario.aspx")) { %> class="active" <% } %> >
-        <a href="frmMovimientoInventario.aspx"><img src="img/inventario.png" alt="Inventario">Inventario</a>
     </li>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmcategorias.aspx")) { %> class="active" <% } %> >
         <a href="frmCategorias.aspx"><img src="img/categoria2.png" alt="Categorías">Categorias</a>
@@ -361,9 +366,17 @@ td[colspan="2"] {
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmunidadmedida.aspx")) { %> class="active" <% } %> >
         <a href="frmUnidadMedida.aspx"><img src="img/medida.png" alt="UnidadMedida">Unidad M.</a>
     </li>
+    <% } %>
+    <%-- Inventario y Reportes: Todos los roles --%>
+    <% if (idRol == 1 || idRol == 2 || idRol == 3) { %>
+    <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmmovimientoinventario.aspx")) { %> class="active" <% } %> >
+        <a href="frmMovimientoInventario.aspx"><img src="img/inventario.png" alt="Inventario">Inventario</a>
+    </li>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmreportes.aspx")) { %> class="active" <% } %> >
         <a href="frmReportes.aspx"><img src="img/reporte.png" alt="Reportes">Reportes</a>
     </li>
+    <% } %>
+    <%-- Acerca De: Todos los roles --%>
     <li <% if(Request.Url.AbsolutePath.ToLower().Contains("frmacercade.aspx")) { %> class="active" <% } %> >
         <a href="frmAcercaDe.aspx"><img src="img/acerca_de.png" alt="AcercaDe">Acerca De</a>
     </li>
